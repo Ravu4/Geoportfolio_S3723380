@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+<head> <!--Contains Metadata only. Little needs to be changed in this section-->
+<meta charset="utf-8">
+<title>Geoportfolio</title> <!--Changes the name on the tab-->
+	<link rel="stylesheet" href="geoportfoliocss.css"> <!--#ID# #CSS# Put the name of your CSS document and file extension in href e.g. href="geoportfolio.css"-->
+	<link rel="icon" type="image/x-icon" href="favicon.png"> <!--#ID# #FAVICON# This changes the picture shown on the tab. Change the file name under href to your desired image e.g. href="favicon.png"-->
+</head>
+
+<body> <!--Everything in between <body> and </body> affects the display of your Geoportfolio and what is shown-->
+	<!--Start of navigation bar-->
+
+	<div id="sidebar" class="sidebar-animate-open" style="display:none"> <!--MUST BE AT TOP OF DOCUMENT-->
+		<button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+		<a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
+		<a href="#about" class="sidebar-menu-button mainbutton">About Me</a>
+		<a href="#academicinfo" class="sidebar-menu-button mainbutton">Deliverables</a>
+		<a href="#industryexperience" class="sidebar-menu-button mainbutton">The Journey Thus Far</a>
+		<a href="#sap" class="sidebar-menu-button mainbutton">Skills</a>
+		<a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
+		<div class="other-sidebar-info">
+			<table class="sidebar-contact-table"> 
+				<tr>
+					<td>
+						<a href="https://au.linkedin.com/" target="_blank"><img src="linkedin.png" class="sidebar-images"></a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page -->
+					</td>
+					<td>
+						<a href="https://au.linkedin.com/" target="_blank">LinkedIn</a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page-->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="https://twitter.com/RMIT" target="_blank"><img src="twitter.png" class="sidebar-images"></a>
+					</td>
+					<td>
+						<a href="https://twitter.com/RMIT" target="_blank">Twitter</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--End of navigation bar-->
+
+	<div class="header"> <!--Code for Header that opens the sidebar. DO NOT TOUCH-->
+		<button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+	</div>
+	
+	<div class="mapbgdiv" id="topofpage">
+		<img src="PXL_20221226_024440457.jpg" alt="map" class="mapbg">
+		<div class="title">
+			<h1>The Geoportfolio of Tudor Vuscan</h1>
+			<h2>S3723380</h2> <!-- #ID# #NAME# INSERT YOUR NAME HERE-->
+		</div>
+	</div>
+
+	<!--ABOUT-->
+	<div class="intro bar" id="about"><h2>About Me</h2></div> <!-- #ID# #INTROHEADING# Change the text of the introduction bar here-->
+	<div class="about">
+		Hello! I have created this website to showcase my experience within the surveying industry and RMITs Bachelor of Surveying degree at the time of working in the Professional Practice course, 
+		this includes examples of work that I have found most interesting as well as rewarding to create.
+		<p>
+		In the future, I would like to continue creating plans and deliverables in my career as highlighted here, to achieve this I’m also completing my fourth year of the BH116 Bachelor of Applied 
+		Science (Surveying) (Honours) course. Outside of the course and work, I am an avid digital goods enthusiast, whether its games or movies, and a lover of the outdoors, I would like to think 
+		these traits have contributed heavily to the affinity I have for the surveying industry.
+		</p>	
+	<!-- <img src="self-portrait.jpg" class="self-portrait"> 
+	#ID# #SELFPORTRAIT# Change the img src name to match the name of your own self-portrait or delete my image and name your image the same name and place it in the same folder 
+	</div> -->
+
+	<!--ACADEMIC PORTFOLIO-->
+	<div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Deliverables</span>
+    </div>
+
+	<!--SUBJECT 1-->
+	
+	<div class="bar"><h2>Cartography</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		The two subjects which underpin most of the Surveying degree that I am completing have allowed me to create plans and maps which have tested my skills in a number of ways. 
+		Cartography, for those unaware, is the process of creating maps for a specific purpose, translating spatial data into visual information that is easy to absorb, the first task that I have chosen to showcase is my final map. 
+		This map allowed us to choose our own topic and create a map that informed the reader about the topic.
+		<p>
+			<img src="Assets/GreatGame.JPG" class="agt-carto">
+
+		As shown on the map, this highlights the important battles and fluctuating state of political boundaries in the hilly, mountainous steppes in between 1800s Britain and Russia. 
+		The process involved into making this map took a lot of research and study of historical sources, especially old maps which attributed land to the various political entities in this area. 
+		</p>	
+		
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+	<div class="bar"><h3>Melbourne Map: Richmond Sporting District</h3></div>
+	<div class="academic-intro"> Other than that, cartography also allowed us to engage into the mindset of a designer / architect, with the project being creating a new pathway for the Richmond oval area, 
+	    these occupations work adjacent to many geospatial occupations. Both projects were hand drawn into Adobe Illustrator.	
+	</div>
+		<img src="Assets/SportingDistrict.png" class="ls-image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--SUBJECT 2-->
+
+	<div class="bar"><h2>Surveying</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		In Surveying (GEOM, an early project involved going to Yarra Bend and hand drawing a feature survey, this was a long-time consuming process involving many measurements and manual drawing, 
+		giving insight on the conveniences of total stations and the post-field work processing that I’d be doing more of in the future. 
+		<img src="Assets/HandDrawn.png" class="agt-survey">
+		<div class="bar"><h3>LISCAD PLAN</h3></div>
+		<p>
+		Further along the way, in Engineering Surveying, there was a heavier mathematical / engineering element which had to be considered when setting out and 
+		developing a path which could be built on RMITs Bundoora campus. The plan shows how our designed path’s elevations compared to the natural surface, 
+		this visual diagram alongside data calculated in LISCAD lets us easily calculate our cut and fill volumes as well as where along the path this is necessary.
+		</p>
+		<img src="Assets/CrossSection.JPG" class="agt-survey"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+
+	<!--INDUSTRY EXPERIENCE-->
+
+	<div class="pagetitle" id="industryexperience">
+        <span class="title-ul">The Journey Thus Far</span>
+    </div>
+
+	<!--COMPANY 1-->
+
+    <div class="bar"><h3>Peter Richards Surveying</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="PRS.png" class="company-logo">
+	<div class="job-title">Surveyors Assistant</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">November 2021 - Present [September 2023]</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		Throughout my studies, I have concurrently spent two years working casually at Peter Richards Surveying. 
+		The experience so far has been eye opening in seeing how different the environments can be in which surveyors are needed, this has also confirmed my passion for geospatial work, 
+		whether it comes from practical work or drafting. I chose to work at Peter Richards knowing that they dealt mainly with cadastral surveying, 
+		which is the field of surveying that appeals to me the most. The work typically involves assisting party leaders, however there are days in which I am using GNSS receivers 
+		to confirm an MGA rotation or AHD-adjusted heights for benchmarks, or days in which I am drafting plans that I have been on site for.
+		<p>
+		This has led to experience in operating both Topcon and Leica instruments in a set out capacity, as well as in a data recording sense for office work. 
+		When applicable, these jobs tend to allow for drone work, setting and confirming pre-flight paths while adhering to CASA regulations. 
+		In the office, AutoCAD is the program of choice, and depending on the job, contours or title dimensions are typically implemented into the final draft.
+		</p>
+	</div>
+
+	<!--Skills and Proficiencies table-->
+	<div class="bar" style="top:57px" id="sap"><h2>Qualifications and Proficiencies</h2></div> <!-- #ID# #SKILLS# -->
+    <div class="skills">
+        <table class="icontable">
+            <tr>
+                <td><img src="Icons/drone.png" class="iconimages"></td>
+				<td>CASA Operator Accreditation</td>
+                <td><img src="Icons/WhiteCard.png" class="iconimages"></td>
+				<td>Victorian White Card</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/car-tilt.png" class="iconimages"></td>
+				<td>Defensive Driving</td>
+                <td><img src="Icons/Adobe.png" class="iconimages"></td>
+				<td>Adobe Suite</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/cad.png" class="iconimages"></td>
+				<td>AutoCAD / LISCAD</td>
+                <td><img src="Icons/geodetic.png" class="iconimages"></td>
+				<td>Total Station Operation</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/lassi.png" class="iconimages"></td>
+				<td>LASSI / SMES</td>
+                <td><img src="Icons/wings.png" class="iconimages"></td>
+				<td>Remote Sensing</td>
+            </tr>
+        </table>
+    </div>
+
+	<!-- #ID# #CREDITS#-->
+	<div class="pagetitle" id="credits">
+        <span class="title-ul">Credits and Attributions</span>
+    </div>
+    
+    <div class="academic-intro">
+       <b> The following programming languages and software were used to create the website</b>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Visual Studio Basic</li>
+        </ul>
+       <b>The deliverables contains content from the following subjects:</b>
+        <ul>
+            <li>Cartography 2 </li>
+            <li>Surveying</li>
+			<li>Engineering Surveying</li>
+        </ul>
+       <b>Special thanks to the following people who have helped me make this website with their expertise and guidance:</b>
+        <ul>
+            <li>Chayn Sun</li>
+			<li>Nicholas Lee</li>
+            <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+            <li><a href="https://www.flaticon.com/">Flaticon</a></li>
+        </ul>
+        Many of the icons used have been retouched by myself, however as per the policy of using the 
+		Flaticons with a free account, the credits of the original creators of the 
+		icons are listed below:
+
+	
+
+	<div class="bar"><h2>Attributions of icons used:</h2></div>
+    <table id="attribution-table">
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icon/drone_570749" title="database icons">Drone icon created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/drone.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icon-font/car-tilt_7407119?term=drive&related_id=7407119" title="draw icons">Tilted Car icon created by monkik - Flaticon</a></th>
+            <th><img src="Icons/car-tilt.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icon-font/illustrator_6422688" title="adobe illustrator icons">Adobe Suite icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/Adobe.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icon/geodetic_3765852" title="python icons">Total Station icon created by Fhmrvi - Flaticon</a></th>
+            <th><img src="Icons/geodetic.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icon/cad_6133948?term=auto+cad&page=1&position=17&origin=tag&related_id=6133948" title="html icons">CAD icon created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/cad.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icon/wings_11888194?term=photogrammetry&page=1&position=30&origin=search&related_id=11888194" title="web site icons">Fixed-Wing Drone icon created by Iconjam - Flaticon</a></th>
+            <th><img src="Icons/wings.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th>Vic White Card icon created by myself</a></th>
+            <th><img src="Icons/WhiteCard.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th>LASSI icon created by myself</a></th>
+            <th><img src="Icons/lassi.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a></th>
+            <th><img src="linkedin.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Bogdan Rosu - Flaticon</a></th>
+            <th><img src="twitter.png" class="icon-attribute"></th>
+        </tr>
+    </table>
+	</div>
+</div> 
+
+
+
+	<div class="footer"> <!-- #ID# #FOOTER# -->
+		<div class="compilationinformation"> <!-- #ID# #COMPINFO# -->
+			<b>Compilation information</b>
+			<br>Website made in Adobe Dreamweaver and Visual Studio Code.
+			<br>HTML and CSS code written by Tudor as part of undergraduate Professional Practice course (GEOMOD10).
+		</div>
+		<table class="contacttable">
+			<caption><h2>Contact Information</h2></caption>
+			<tr>
+				<th><img src="mappin.png" alt="pointer" class="contactimages"></th>
+				<th><img src="mail.png" alt="email" class="contactimages"></th>
+				<th><img src="phone.png" alt="phone" class="contactimages"></th>
+			</tr>
+			<tr>
+				<th>
+					Work address:
+					<br>45/7 Dalton Road, Thomastown VIC 3074</th>
+				<th>
+					Email Tudor Vuscan here:
+					<br><a href = "mailto:s3723380@student.rmit.edu.au">s3723380@student.rmit.edu.au</a>
+				</th>
+				<th>Mobile:
+					<br>(03) 9432 6944
+				</th>
+			</tr>
+		</table>
+	</div>
+
+</body>
+<script> //Code for opening and closing sidebar. DO NOT TOUCH OR EDIT THIS AS THIS IS WHAT WORKS THE SIDEBAR NAVIGATION
+    function open_sidebar() {
+      document.getElementById("sidebar").style.display = "block";
+    }
+    function close_sidebar() {
+      document.getElementById("sidebar").style.display = "none";
+    }
+</script>
+</html>
